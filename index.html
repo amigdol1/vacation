@@ -25,18 +25,18 @@
 			<div id="blanks">
 				<form>
 					<div class="form-group">
-							<label for="name">Enter in your name:</label>
+							<label for="name">Enter in your name:*</label>
 							<input id="name" class="form-control" type="text">
 					</div> <!--closes the name question class-->
 					<br></br>
 
 					<div class="form-group">
-							<label for="name">Enter in your email:</label>
+							<label for="name">Enter in your email:*</label>
 							<input id="name" class="form-control" type="text">
 					</div> <!--closes the email question class-->
 					<br></br>
 
-					<label for="climate">What type of climate do you prefer?</label>
+					<label for="climate">What type of climate do you prefer?*</label>
 						<div class="radio">
 							<label>
 								<input type="radio" name="climate" value="Hot">
@@ -59,7 +59,7 @@
 						</div> <!-- closes no preference -->
 						<br></br>
 
-					<label for="residence">What type of residence do you prefer?</label>
+					<label for="residence">What type of residence do you prefer?*</label>
 						<div class="radio">
 							<label>
 								<input type="radio" name="residence" value="house">
@@ -80,6 +80,39 @@
 								No preference
 							</label> 
 						</div> <!-- closes no preference -->
+						<br></br>
+
+						<h5><em>The following question is optional and will be kept for internal use only</em></h5>
+
+
+						<label for="age">What's your age range?</label>
+						<div class="radio">
+							<label>
+								<input type="radio" name="age" value="18-30">
+								18-30
+							</label> 
+						</div> <!-- closes 18-30 -->
+
+						<div class="radio">
+							<label>
+								<input type="radio" name="age" value="31-45">
+								31-45
+							</label> 
+						</div> <!-- closes 31-45 -->
+
+						<div class="radio">
+							<label>
+								<input type="radio" name="age" value="46-54">
+								46-54
+							</label> 
+						</div> <!-- closes 46-54 -->
+
+						<div class="radio">
+							<label>
+								<input type="radio" name="age" value="55+">
+								55+
+							</label> 
+						</div> <!-- closes 55+ -->
 						<br></br>
 
 					<button type="submit" class="btn btn-primary">Submit</button>

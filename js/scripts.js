@@ -5,5 +5,9 @@ $(document).ready(function() {
 		$var email = $("#email").val();
 		$var climate = $("input:radio[name=climate]:checked").val();
 		$var residence = $("input:radio[name=climate]:checked").val();
+
+		if ((climate === "hot") && (residence === "house") {
+			result === hot_house
+		}
 	});
 });
