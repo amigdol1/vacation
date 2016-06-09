@@ -10,7 +10,7 @@
 		<h1><img id="plane" src="png/plane.png"></a>Vacation Suggester</h1>
 			<div class="container">
 				<ul class="nav nav-pills">
-				  <li role="presentation" class="active"><a href="index.html">Suggester</a></li>
+				  <li role="presentation" class="active"><a href="index.html">Home</a></li>
 				  <li role="presentation"><a href="view_all.html">View All Options</a></li>
 				  <li role="presentation"><a href="contact.html">Contact</a></li>
 				</ul>
@@ -39,24 +39,18 @@
 					<label for="climate">What type of climate do you prefer?*</label>
 						<div class="radio">
 							<label>
-								<input type="radio" name="climate" value="Hot">
+								<input type="radio" name="climate" value="hot">
 								Hot
 							</label> 
 						</div> <!-- closes hot -->
 
 						<div class="radio">
 							<label>
-								<input type="radio" name="climate" value="Cold">
+								<input type="radio" name="climate" value="cold">
 								Cold
 							</label> 
 						</div> <!-- closes cold -->
 
-						<div class="radio">
-							<label>
-								<input type="radio" name="climate" value="No preference">
-								No preference
-							</label> 
-						</div> <!-- closes no preference -->
 						<br></br>
 
 					<label for="residence">What type of residence do you prefer?*</label>
@@ -118,6 +112,10 @@
 					<button type="submit" class="btn btn-primary">Submit</button>
 
 				</form>
+
+				<div class = result>
+				<!-- Need to add in the 6 different text outputs here. refer to js file to get their ids -->
+			</div>
 			</div> <!-- closes blanks -->
 		</div> <!-- closes container -->
 	</body>
