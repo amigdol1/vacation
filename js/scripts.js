@@ -17,6 +17,10 @@ $(document).ready(function() {
 				$("#hot_resort_text").show();
 		} else if ((climate === "cold") && (residence === "resort")) {
 				$("#cold_resort_text").show();
+		} else if ((climate === "hot") && (residence === "no_preference")) {
+				$("#both_hot_text").show();
+		} else if ((climate === "cold") && (residence === "no_preference")) {
+				$("#both_cold_text").show();
 		} else {
 			$("#view_all_text").show();
 		}
