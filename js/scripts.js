@@ -9,23 +9,20 @@ $(document).ready(function() {
 		var residence = $("input:radio[name=residence]:checked").val();
 
 
-		var result;
 		if ((climate === "hot") && (residence === "house")) {
-			result = "hot_house";
+			$("#hot_house_text").show();
 		} else if ((climate === "cold") && (residence === "house")) {
-			result = "cold_house";
+				$("#cold_house_text").show();
 		} else if ((climate === "hot") && (residence === "resort")) {
-			result = "hot_resort";
+				$("#hot_resort_text").show();
 		} else if ((climate === "cold") && (residence === "resort")) {
-			result = "cold_resort";
+				$("#cold_resort_text").show();
 		} else {
-			result = "view_all";
+			$("#view_all_text").show();
 		}
 
 
-		console.log(result)
-
-			$("result").text(result);
+			
 
 
 	});

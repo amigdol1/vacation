@@ -23,9 +23,10 @@ li {
 	width: 25%;
 }
 
-#hot_house, #cold_house, #hot_resort, #cold_resort {
-	display: none;
+#hot_house_text, #cold_house_text, #hot_resort_text, #cold_resort_text, #view_all_text {
+  display: none;
 }
+
 
 
 
