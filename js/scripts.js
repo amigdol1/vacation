@@ -20,7 +20,7 @@ $(document).ready(function() {
 		} else if ((climate === "cold") && (residence === "no_preference")) {
 				$("#both_cold_text").show();
 		} else {
-			$("#view_all_text").show();
+			alert("Oops! Looks like you didn't fill in all of the required fields. Be sure to answer all required questions, so our team can give you the best results.")
 		}
 
 

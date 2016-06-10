@@ -25,7 +25,7 @@ li {
 	width: 25%;
 }
 
-#hot_house_text, #cold_house_text, #hot_resort_text, #cold_resort_text, #both_hot_text, #both_cold_text, #view_all_text {
+#hot_house_text, #cold_house_text, #hot_resort_text, #cold_resort_text, #both_hot_text, #both_cold_text, #feild_required {
   display: none;
 }
 
@@ -38,11 +38,17 @@ li {
 	height: 320px;
 }
 
+#feild_required {
+	color: red;
+}
+
 
 /* View All */
 
-
-
+/*.multiple_results_img {
+	width: 550px;
+	height: 320px;
+} */
 
 
 
@@ -51,8 +57,8 @@ li {
 .contact {
 	text-align: center;
 	margin-top: 120px;
-	margin-left: 120px;
-	margin-right: 120px;
+	margin-left: 200px;
+	margin-right: 200px;
 	padding: 90px;
 	font-size: 17px;
 	border: 1px solid black;
