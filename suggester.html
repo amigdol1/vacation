@@ -16,8 +16,7 @@
 				  <li role="presentation"><a href="contact.html">Contact</a></li>
 				</ul>
 			</div>
-
-		<br></br>
+			<br></br>
 
 		<div class = "container">
 			<img id = "main" src = "http://s3.amazonaws.com/mtssdhosting/lookoutmountainvacationrental.com/wp-content/uploads/2013/03/18144802/slide1.jpg">
@@ -51,6 +50,13 @@
 								Cold
 							</label> 
 						</div> <!-- closes cold -->
+
+						<div class="radio">
+							<label>
+								<input type="radio" name="climate" value="no_preference">
+								No preference
+							</label> 
+						</div> <!-- closes no preference -->
 
 						<br></br>
 
@@ -136,36 +142,48 @@
         <h4>Mexico Getaway</h4> 
         	<p>Looks like Mexico is where it's at for you! One of the most popular and fun places to be. Enjoy the many activities we have onsite and a pool with swim-up bar.  See you there!</p>
         	<br></br>
-        	<img class="results_img" src="png/mexico_resort.jpg">
+        	<img class="results_img" src="png/mexico_resort.png">
       </div>
 
       <div id="cold_resort_text">
         <h4>Aspen Lodge Resort</h4> 
         	<p>Based on your responses, our fancy Aspen Lodge would be the best fit for you! Have fun on the slops or feel free to sit back and enjoy the many gorgeous views.</p>
         	<br></br>
-        	<img class="results_img" src="png/aspen_resort">
+        	<img class="results_img" src="png/aspen_resort.jpg">
       </div>
 
       <div id="both_hot_text">
         <h4>Multiple Locations</h4> 
         	<p>You have a couple different options to choose from - how exciting! We have a place in Hawaii and Mexico that would be a good fit from your profile.</p>
         	<br></br>
-        	<h4>Hawaiian House</h4> 
-        	<img class="muliple_results_img" src="png/hawaii_house.png">
-        	<br></br>
-        	<h4>Mexico Getaway</h4> 
-        	<img class="mulitple_results_img" src="png/mexico_resort.jpg">
+        	<div class = "row">
+        		<div class="col-md-6">
+		        	<h4>Hawaiian House</h4> 
+		        	<img class="multiple_results_img" src="png/hawaii_house.png">
+		        </div>
+		        
+		        <div class="col-md-6">
+		        	<h4>Mexico Getaway</h4> 
+		        	<img class="multiple_results_img" src="png/mexico_resort.png">
+		        </div>
+		       </div>
       </div>
 
       <div id="both_cold_text">
         <h4>Multiple Locations</h4> 
         	<p>You have a couple different options to choose from - how exciting! Check out our cabin and also the reort in Aspen. While both are cold, the experience is very different in these locations</p>
         	<br></br>
-        	<h4>Cabin in the Woods</h4> 
-        	<img class="mulitple_results_img" src="png/cold_cabin.jpg">
-        	<br></br>
-        	<h4>Aspen Lodge Resort</h4> 
-        	<img class="multiple_results_img" src="png/aspen_resort">
+        	<div class="row">
+						<div class="col-md-6">
+        			<h4>Cabin in the Woods</h4> 
+		        	<img class="multiple_results_img" src="png/cold_cabin.jpg">
+		        	<br></br>
+		        </div>
+		      <div class="col-md-6">
+        		<h4>Aspen Lodge Resort</h4> 
+        		<img class="multiple_results_img" src="png/aspen_resort.jpg">
+        	</div>
+        </div> <!--closes out row class -->
       </div>
 
       <div id="view_all_text">
@@ -173,7 +191,7 @@
         <h5>You'd be a great fit anywhere!  Check out all our <a href="view_all.html">locations!</a></h5>
       </div>
 
-		</div> <!-- result -->
+		</div> <!-- closes result -->
 		</div> <!-- closes container -->
 	</body>
 </html>

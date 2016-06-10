@@ -1,5 +1,3 @@
-
-
 $(document).ready(function() {
 	$("#blanks").submit(function(event) {
 		event.preventDefault();

@@ -1,6 +1,8 @@
 /* all html files */
+
+
 li {
-	margin-right: 40px;
+	margin-right: 25px;
 }
 
 
@@ -27,7 +29,14 @@ li {
   display: none;
 }
 
+#result {
+	margin-bottom: 25px;
+}
 
+.multiple_results_img {
+	width: 550px;
+	height: 320px;
+}
 
 
 /* View All */
