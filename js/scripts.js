@@ -11,15 +11,16 @@ $(document).ready(function() {
 		if ((climate === "hot") && (residence === "house")) {
 			result === hot_house;
 		} else if ((climate === "cold") && (residence === "house")) {
-			results === cold_house;
+			result === cold_house;
 		} else if ((climate === "hot") && (residence === "resort")) {
-			results === hot_resort;
+			result === hot_resort;
 		} else if ((climate === "cold") && (residence === "resort")) {
-			results === cold_resort;
+			result === cold_resort;
 		} else if ((climate === "hot") && (residence === "no_preference")) {
-			results === cold_resort;
+			result === cold_resort;
 			else if ((climate === "cold") && (residence === "no_preference")) {
-			results === cold_resort;
+			result === cold_resort;
 
+			$(#result).text(results);
 	});
 });
