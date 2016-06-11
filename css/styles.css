@@ -25,11 +25,11 @@ li {
 	width: 25%;
 }
 
-#hot_house_text, #cold_house_text, #hot_resort_text, #cold_resort_text, #both_hot_text, #both_cold_text, #feild_required {
+.hot_house_text, .cold_house_text, .hot_resort_text, .cold_resort_text, .both_hot_text, .both_cold_text, .feild_required {
   display: none;
 }
 
-#result {
+.result {
 	margin-bottom: 25px;
 }
 
@@ -38,9 +38,6 @@ li {
 	height: 295px;
 }
 
-#feild_required {
-	color: red;
-}
 
 
 /* View All */
