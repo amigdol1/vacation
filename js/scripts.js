@@ -25,5 +25,11 @@ $(document).ready(function() {
 
 			console.log(name, email, climate, residence, age)
 
+			//disables resubmissions
+			$("button#suggester").on('click', function() {
+				$(this).val('Please wait ...')
+				.attr('disabled', 'disabled');
+				$('#suggesterform').submit();
+			});
 	});
 });
