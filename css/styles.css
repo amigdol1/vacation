@@ -3,8 +3,8 @@
 
 li {
 	margin-right: 25px;
+	color: black;
 }
-
 
 
 /* suggester.html */
@@ -34,8 +34,8 @@ li {
 }
 
 .multiple_results_img {
-	width: 550px;
-	height: 320px;
+	width: 480px;
+	height: 295px;
 }
 
 #feild_required {
@@ -44,11 +44,7 @@ li {
 
 
 /* View All */
-
-/*.multiple_results_img {
-	width: 550px;
-	height: 320px;
-} */
+/* references .mutliple results_img in html section */
 
 
 

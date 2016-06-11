@@ -1097,7 +1097,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: black;
   text-decoration: none;
 }
 a:hover,
@@ -1338,7 +1338,7 @@ mark,
   color: #777;
 }
 .text-primary {
-  color: #337ab7;
+  color: black;
 }
 a.text-primary:hover,
 a.text-primary:focus {
@@ -3170,8 +3170,9 @@ fieldset[disabled] .btn-primary.focus {
   border-color: #2e6da4;
 }
 .btn-primary .badge {
-  color: #337ab7;
+  color: black;
   background-color: #fff;
+  border: 1px solid black;
 }
 .btn-success {
   color: #fff;
@@ -4089,6 +4090,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav-pills > li {
   float: left;
+  color: black;
 }
 .nav-pills > li > a {
   border-radius: 4px;
@@ -4099,8 +4101,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  color: #fff;
-  background-color: #337ab7;
+  color: black;
+  background-color: #fff;
+  border: 1px solid black;
 }
 .nav-stacked > li {
   float: none;
@@ -4946,8 +4949,9 @@ a.badge:focus {
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #337ab7;
+  color: black;
   background-color: #fff;
+  border: 1px solid black;
 }
 .list-group-item > .badge {
   float: right;
@@ -5715,7 +5719,7 @@ button.list-group-item-danger.active:focus {
   border-top-color: #337ab7;
 }
 .panel-primary > .panel-heading .badge {
-  color: #337ab7;
+  color: black;
   background-color: #fff;
 }
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
