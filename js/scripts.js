@@ -20,12 +20,10 @@ $(document).ready(function() {
 			} else if ((climate === "cold") && (residence === "no_preference")) {
 					$("#both_cold_text").show();
 			} else {
-				alert("Oops! Looks like you didn't fill in all of the required fields. Be sure to answer all required questions, so our team can give you the best results.")
+				alert("Oops! Looks like you didn't answer all of the required fields. Be sure to answer all required questions, so our team can give you the best results.")
 			}
 
 			console.log(name, email, climate, residence, age)
-
-	// add/remove id's for response when form submitting again w/o refresh
 
 	});
 });
